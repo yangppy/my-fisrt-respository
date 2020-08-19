@@ -1,0 +1,1490 @@
+<!DOCTYPE html>
+<!-- saved from url=(0020)http://www.tmooc.cn/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" countent="it在线培训,it职业教育平台,JAVA基础入门,java教程,it职业技能学习">
+    <meta name="description" countent="达内在线WWW.TMOOC.CN致力于IT职业技能在线培训提升。目前开设Java、JAVA大数据、Android、iOS、PHP、软件测试、嵌入式、C++、C#、UID、UED、产品经理、Linux云计算、Web前端、VR、网络营销、高级电商、主办会计等20多门课程体系。">
+    <title>达内在线TMOOC-中国权威的it职业教育学习平台</title>
+    <link rel="stylesheet" href="./danei_files/iconfont.css"> 
+	<link rel="stylesheet" href="./danei_files/style.css">
+	<script src="./danei_files/wxLogin.js"></script><script src="./danei_files/hm.js"></script><script src="./danei_files/jquery-2.1.1.js"></script>
+<link rel="stylesheet" href="./danei_files/layer.css" id="layuicss-layer"></head>
+<body class="indexbody-200727">
+      
+
+<div class="page-header md-blue-bg">
+    <div class="md2018033001lty">
+    <div class="container">
+        <div class="tmooc-logo pull-left">
+            <a href="http://www.tmooc.cn/">
+                <img class="default-logo" src="./danei_files/tmooc-logo.png">
+                <img class="blue-logo" src="./danei_files/tmooc-logo2.png">
+            </a>
+        </div>
+        <div id="no-login-nav">
+	        <ul class="slide-nav pull-left clearfix" id="js_slide_nav">
+	            <li><a href="http://www.tmooc.cn/">首页</a></li>
+	            <li><a href="http://www.tmooc.cn/free/">免费课</a></li>
+	            <li><a href="http://www.tmooc.cn/live/">直播课</a></li>
+	            <li><a href="http://www.tmooc.cn/vip/">会员课</a></li>
+	            <li><a href="http://www.tmooc.cn/advanced/">精品课</a></li>
+	            <li><a href="javascript:void(0);" onclick="checkTtsUser()">线上班</a></li>
+	            <li><a href="http://www.tmooc.cn/offline_courses/">线下班</a></li>
+	            <li><a href="http://www.tmooc.cn/university/index.html">高校专区</a></li>
+	            <!-- <li><a href="http://www.tmooc.cn/activities/">最新活动</a></li> -->
+	        </ul>
+        </div>
+        <div class="hide" id="login-nav">
+	        <ul class="slide-nav pull-left clearfix" id="js_slide_nav">
+	            <li><a href="http://www.tmooc.cn/">首页</a></li>
+	            <li><a href="http://www.tmooc.cn/free/">免费课</a></li>
+	            <li><a href="http://www.tmooc.cn/live/">直播课</a></li>
+	            <li><a href="http://www.tmooc.cn/vip/">会员课</a></li>
+	            <li><a href="http://www.tmooc.cn/advanced/">精品课</a></li>
+	            <li><a href="javascript:void(0);" onclick="checkTtsUser()">线上班（VIP）</a></li>
+	            <li><a href="http://www.tmooc.cn/offline_courses/">线下班</a></li>
+	            <li><a href="http://www.tmooc.cn/university/index.html">高校专区</a></li>
+	            <!-- <li><a href="http://www.tmooc.cn/activities/">最新活动</a></li> -->
+	            <li><a href="http://uc.tmooc.cn/userCenter/toUserSingUpCoursePage">我的课程</a></li>
+	        </ul>
+        </div>
+        <div class="login-area pull-right " id="login_statelty">
+            <!--未登录状态-->
+            <ul class="no-login clearfix">
+                <li><a id="register_xxw" href="http://uc.tmooc.cn/login/jumpToRegister">注册</a></li>
+                <li class="line">|</li>
+                <li><a id="login_xxw" href="http://www.tmooc.cn/#">登录</a></li>
+            </ul>
+            <!--登录状态-->
+            <div class="logined hide" style="display: none;">
+                <div class="md-2018040202-lty">
+                    <div class="drop-menu" id="js_init_dropmenu">
+                        <div class="md-2018040801-lty">
+                            <a href="http://uc.tmooc.cn/userCenter/toUserCenterPage">
+                                <img class="js-headpic-xxw" id="tobbar_userimg" src="./danei_files/user-head.jpg" alt="">
+                            </a>
+                        </div>
+                        <ul class="drop-menu-list bgcolor-fff">
+<!--                             <li class="user-name link-color"><a href="#" id="tobbar_username">XXX</a></li>
+ -->                           
+                             <li class="user-name link-color"><a href="http://uc.tmooc.cn/userCenter/toUserSingUpCoursePage" id="tobbar_username">我的课程</a></li>
+ 							 <li><a href="http://www.tmooc.cn/#" id="js_go_ynote">我的云笔记</a></li>
+ 							 <li><a href="http://uc.tmooc.cn/userCenter/jumpToUserCenterInfo">账号设置</a></li>
+ 							<li><a href="http://uc.tmooc.cn/tmoocVipCenter/vipcenter">会员中心</a></li>
+    <!--                       <li id="js_isshow_tts" style="display: none;"><a style="cursor: pointer;" onclick="checkTtsUser()">我的TTS</a></li> -->
+    						<li><a href="http://uc.tmooc.cn/message/toHave">消息中心 <span class="js-mes-length2"></span></a></li>
+                           <li><a href="http://www.tmooc.cn/#" id="js_loginout">退出登录</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="search-wrap pull-right">
+            <div class="search-area">
+                <input id="js_search_inp" type="text" class="search-input" placeholder="您想学的课程">
+            </div>
+            <div class="showhide-search" id="js_control_search">
+                <i class="cusfont cusfont-search"></i>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="page-con bgcolor-f6f5fa">
+    <div class="md2018040302lty bgcolor-fff">
+        <div class="container">
+            <div class="banner-box clearfix">
+                <!--左侧菜单栏-->
+                <div class="menu-con pull-left">
+                    <ul class="menu-list" id="js_control_menu">
+                        <li class="sub">
+                            <a href="http://www.tmooc.cn/#" class="color-999 ">
+                                <span>前端/后端开发</span>
+                                <i class="verflag"></i>
+                                <i class="cusfont cusfont-more"></i>
+                            </a>
+                            <div class="item">
+                                <div class="course-list">
+                                    <div class="course-item clearfix">
+                                    	<p>
+                                    		<a href="http://www.tmooc.cn/search/index.shtml#categoryId=2F6829DB95FC40B88DA3B32EBF76B95B" target="_blank">前端开发</a>
+                                    	</p>
+                                    	<div class="c-l">
+	                                    		<a href="http://www.tmooc.cn/search/index.shtml#categoryId=89AD896E99BE4E6E87670CF699E91A08" target="_blank" class="color-999">Web前端</a>
+	                                    	<i class="verflag"></i>
+                                        </div>
+                                    </div>
+                                    <div class="course-item clearfix">
+                                    	<p>
+                                    		<a href="http://www.tmooc.cn/search/index.shtml#categoryId=41476FE3B52B48FD855598F520972379" target="_blank">后端开发</a>
+                                    	</p>
+                                    	<div class="c-l">
+	                                    		<a href="http://www.tmooc.cn/search/index.shtml#categoryId=926BFED2729248E29C6BF3C3932D7364" target="_blank" class="color-999">Java</a>
+	                                    		<a href="http://www.tmooc.cn/search/index.shtml#categoryId=220FC8F56805484B90AD920026295FF7" target="_blank" class="color-999">Python</a>
+	                                    		<a href="http://www.tmooc.cn/search/index.shtml#categoryId=28d92fdb06c04b079a23ef084553723a" target="_blank" class="color-999">JAVA培优</a>
+	                                    		<a href="http://www.tmooc.cn/search/index.shtml#categoryId=4c3d43692693438badf1291b315541ff" target="_blank" class="color-999">Go语言与区块链</a>
+	                                    		<a href="http://www.tmooc.cn/search/index.shtml#categoryId=AB70E2775D524B8EBE9DC491E88793F9" target="_blank" class="color-999">C#/.Net</a>
+	                                    		<a href="http://www.tmooc.cn/search/index.shtml#categoryId=D231E38FE27A4E30BC88EC44373DB843" target="_blank" class="color-999">C/C++</a>
+	                                    		<a href="http://www.tmooc.cn/search/index.shtml#categoryId=C4A8F11E1C6246669AD627D9F4ACC97F" target="_blank" class="color-999">PHP</a>
+	                                    	<i class="verflag"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <ul class="course-video clearfix bgcolor-fff">
+	                            			<li class="pull-left">
+													<a href="http://www.tmooc.cn/course/300581.shtml" target="_blank">
+		                                            <div class="l-p md-ad-imgbox">
+		                                                <img src="./danei_files/c079cd3ec3154c62916dc864095ef0ae.jpg" width="120" height="68" alt="">
+		                                            </div>
+		                                            <div class="cv-r">
+		                                                <h3 class="tit font-weight">Java高手加薪课程</h3>
+		                                                <p class="info clearfix color-999">达内重磅推出的JAVA高手加薪课，涵盖爆款的主流技术与更深的技术原理，助力程序员快速进阶架构师！</p>
+		                                            </div>
+		                                        </a>
+		                                    </li>
+	                            			<li class="pull-left">
+													<a href="http://www.tmooc.cn/course/300582.shtml" target="_blank">
+		                                            <div class="l-p md-ad-imgbox">
+		                                                <img src="./danei_files/40d6f6da36cf497586b29f3d9069f2fa.jpg" width="120" height="68" alt="">
+		                                            </div>
+		                                            <div class="cv-r">
+		                                                <h3 class="tit font-weight">Java软件架构课</h3>
+		                                                <p class="info clearfix color-999">由传统架构师迈向互联网架构师！</p>
+		                                            </div>
+		                                        </a>
+		                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="sub">
+                            <a href="http://www.tmooc.cn/#" class="color-999 ">
+                                <span>大数据/云计算</span>
+                                <i class="verflag"></i>
+                                <i class="cusfont cusfont-more"></i>
+                            </a>
+                            <div class="item">
+                                <div class="course-list">
+                                    <div class="course-item clearfix">
+                                    	<p>
+                                    		<a href="http://www.tmooc.cn/search/index.shtml#categoryId=09EE41ADAD8C49BEB320846E2D9D6226" target="_blank">大数据</a>
+                                    	</p>
+                                    	<div class="c-l">
+	                                    		<a href="http://www.tmooc.cn/search/index.shtml#categoryId=E3768E6825F5445180B05D330B07150B" target="_blank" class="color-999">大数据</a>
+	                                    	<i class="verflag"></i>
+                                        </div>
+                                    </div>
+                                    <div class="course-item clearfix">
+                                    	<p>
+                                    		<a href="http://www.tmooc.cn/search/index.shtml#categoryId=333A34613EF94216BC00B2A877A406DA" target="_blank">云计算</a>
+                                    	</p>
+                                    	<div class="c-l">
+	                                    		<a href="http://www.tmooc.cn/search/index.shtml#categoryId=FC6864346022427F929AD95F813FE46B" target="_blank" class="color-999">linux云计算</a>
+	                                    	<i class="verflag"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <ul class="course-video clearfix bgcolor-fff">
+	                            			<li class="pull-left">
+													<a href="http://www.tmooc.cn/course/300532.shtml" target="_blank">
+		                                            <div class="l-p md-ad-imgbox">
+		                                                <img src="./danei_files/5302df23e4ec4fc88216f2127c438c3b.jpg" width="120" height="68" alt="">
+		                                            </div>
+		                                            <div class="cv-r">
+		                                                <h3 class="tit font-weight">大数据+实战高薪课</h3>
+		                                                <p class="info clearfix color-999">达内在线大数据培优课</p>
+		                                            </div>
+		                                        </a>
+		                                    </li>
+	                            			<li class="pull-left">
+													<a href="http://www.tmooc.cn/course/300361.shtml" target="_blank">
+		                                            <div class="l-p md-ad-imgbox">
+		                                                <img src="./danei_files/b96d40ef6562489882fbd7dac9394335.jpg" width="120" height="68" alt="">
+		                                            </div>
+		                                            <div class="cv-r">
+		                                                <h3 class="tit font-weight">Linux云计算系列实战训练营2.0</h3>
+		                                                <p class="info clearfix color-999">专为培养新一代“Linux运维/Python开发”工程师而开设。</p>
+		                                            </div>
+		                                        </a>
+		                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="sub">
+                            <a href="http://www.tmooc.cn/#" class="color-999 ">
+                                <span>移动开发/游戏</span>
+                                <i class="verflag"></i>
+                                <i class="cusfont cusfont-more"></i>
+                            </a>
+                            <div class="item">
+                                <div class="course-list">
+                                    <div class="course-item clearfix">
+                                    	<p>
+                                    		<a href="http://www.tmooc.cn/search/index.shtml#categoryId=4750A455098E4BB29394E40F39A7487E" target="_blank">移动开发</a>
+                                    	</p>
+                                    	<div class="c-l">
+	                                    		<a href="http://www.tmooc.cn/search/index.shtml#categoryId=0bc239bd263a4085aaf18aec6f9b418e" target="_blank" class="color-999">小程序</a>
+	                                    		<a href="http://www.tmooc.cn/search/index.shtml#categoryId=1B59DCB2A9A242EE8F9477F3AA62B778" target="_blank" class="color-999">Android</a>
+	                                    		<a href="http://www.tmooc.cn/search/index.shtml#categoryId=0D7989695B9845CCA9D9EA6ED7A431FB" target="_blank" class="color-999">iOS</a>
+	                                    	<i class="verflag"></i>
+                                        </div>
+                                    </div>
+                                    <div class="course-item clearfix">
+                                    	<p>
+                                    		<a href="http://www.tmooc.cn/search/index.shtml#categoryId=7D76A04C21184B06AB0F88416AB69C46" target="_blank">游戏</a>
+                                    	</p>
+                                    	<div class="c-l">
+	                                    		<a href="http://www.tmooc.cn/search/index.shtml#categoryId=1B5A6830C0134054A9676C26616C7363" target="_blank" class="color-999">Unity3D</a>
+	                                    	<i class="verflag"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <ul class="course-video clearfix bgcolor-fff">
+	                            			<li class="pull-left">
+													<a href="http://www.tmooc.cn/course/2018/05/25/6D1AFC7908F24B798BE616418CD91A56.shtml" target="_blank">
+		                                            <div class="l-p md-ad-imgbox">
+		                                                <img src="./danei_files/486CFA775C7244D49E6E0D550C31A6E8.png" width="120" height="68" alt="">
+		                                            </div>
+		                                            <div class="cv-r">
+		                                                <h3 class="tit font-weight">Unity3D入门之脚本开发</h3>
+		                                                <p class="info clearfix color-999">Unity3D入门之脚本开发</p>
+		                                            </div>
+		                                        </a>
+		                                    </li>
+	                            			<li class="pull-left">
+													<a href="http://www.tmooc.cn/course/2018/05/22/EF231BBA08614F98AFC1C60E7054B22E.shtml" target="_blank">
+		                                            <div class="l-p md-ad-imgbox">
+		                                                <img src="./danei_files/69980B7CC2634E61870DFE605C3A6C85.png" width="120" height="68" alt="">
+		                                            </div>
+		                                            <div class="cv-r">
+		                                                <h3 class="tit font-weight">Android之网络通信</h3>
+		                                                <p class="info clearfix color-999">Android之网络通信</p>
+		                                            </div>
+		                                        </a>
+		                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="sub">
+                            <a href="http://www.tmooc.cn/#" class="color-999 ">
+                                <span>物联网/测试</span>
+                                <i class="verflag"></i>
+                                <i class="cusfont cusfont-more"></i>
+                            </a>
+                            <div class="item">
+                                <div class="course-list">
+                                    <div class="course-item clearfix">
+                                    	<p>
+                                    		<a href="http://www.tmooc.cn/search/index.shtml#categoryId=FD9EF973DCC04001AEE91C5E560D13D0" target="_blank">物联网</a>
+                                    	</p>
+                                    	<div class="c-l">
+	                                    		<a href="http://www.tmooc.cn/search/index.shtml#categoryId=91D48D08532B4BAFB18B04ADA6DB0E32" target="_blank" class="color-999">嵌入式</a>
+	                                    	<i class="verflag"></i>
+                                        </div>
+                                    </div>
+                                    <div class="course-item clearfix">
+                                    	<p>
+                                    		<a href="http://www.tmooc.cn/search/index.shtml#categoryId=A6E31CB53B904945B55C87887588A926" target="_blank">软件测试</a>
+                                    	</p>
+                                    	<div class="c-l">
+	                                    		<a href="http://www.tmooc.cn/search/index.shtml#categoryId=84A26687ED8F489D8E151E11FED030F8" target="_blank" class="color-999">软件测试</a>
+	                                    	<i class="verflag"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <ul class="course-video clearfix bgcolor-fff">
+	                            			<li class="pull-left">
+													<a href="http://www.tmooc.cn/course/2018/05/22/635F23EF339046E98370884B65EE5AAB.shtml" target="_blank">
+		                                            <div class="l-p md-ad-imgbox">
+		                                                <img src="./danei_files/AF73F4970A64405295A768B17AE58F04.png" width="120" height="68" alt="">
+		                                            </div>
+		                                            <div class="cv-r">
+		                                                <h3 class="tit font-weight">嵌入式之开发实战</h3>
+		                                                <p class="info clearfix color-999">开发实战</p>
+		                                            </div>
+		                                        </a>
+		                                    </li>
+	                            			<li class="pull-left">
+													<a href="http://www.tmooc.cn/course/2018/05/21/A760566566624EDFAB72FA4EE71F6D98.shtml" target="_blank">
+		                                            <div class="l-p md-ad-imgbox">
+		                                                <img src="./danei_files/EE0DE5C881684542B3D0875CF97CAA5D.png" width="120" height="68" alt="">
+		                                            </div>
+		                                            <div class="cv-r">
+		                                                <h3 class="tit font-weight">设计测试用例的方法</h3>
+		                                                <p class="info clearfix color-999">设计测试用例的方法</p>
+		                                            </div>
+		                                        </a>
+		                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="sub">
+                            <a href="http://www.tmooc.cn/#" class="color-999 ">
+                                <span>营销/产品/运营</span>
+                                <i class="verflag"></i>
+                                <i class="cusfont cusfont-more"></i>
+                            </a>
+                            <div class="item">
+                                <div class="course-list">
+                                    <div class="course-item clearfix">
+                                    	<p>
+                                    		<a href="http://www.tmooc.cn/search/index.shtml#categoryId=053B7852EC86467CB92F5AFEB8C18E3B" target="_blank">营销</a>
+                                    	</p>
+                                    	<div class="c-l">
+	                                    		<a href="http://www.tmooc.cn/search/index.shtml#categoryId=E4D5A06D25D2468EBFD94FD3F9484FB5" target="_blank" class="color-999">网络营销</a>
+	                                    		<a href="http://www.tmooc.cn/search/index.shtml#categoryId=e0b29a16aa614bf6b393c1f2e59c5aa2" target="_blank" class="color-999">信息流</a>
+	                                    	<i class="verflag"></i>
+                                        </div>
+                                    </div>
+                                    <div class="course-item clearfix">
+                                    	<p>
+                                    		<a href="http://www.tmooc.cn/search/index.shtml#categoryId=C3BC9CBD3F2C4BB5AE646E6A9D1FDBE4" target="_blank">产品</a>
+                                    	</p>
+                                    	<div class="c-l">
+	                                    		<a href="http://www.tmooc.cn/search/index.shtml#categoryId=B690091F83164B1E9EE603A86D0B2081" target="_blank" class="color-999">产品经理</a>
+	                                    	<i class="verflag"></i>
+                                        </div>
+                                    </div>
+                                    <div class="course-item clearfix">
+                                    	<p>
+                                    		<a href="http://www.tmooc.cn/search/index.shtml#categoryId=26A6F0CCC6534C79BC27D41600796B57" target="_blank">运营</a>
+                                    	</p>
+                                    	<div class="c-l">
+	                                    		<a href="http://www.tmooc.cn/search/index.shtml#categoryId=2068d6004672439d97d67dbf28c1d780" target="_blank" class="color-999">新媒体运营</a>
+	                                    		<a href="http://www.tmooc.cn/search/index.shtml#categoryId=B1164366C37043BDB0E79B4F10642665" target="_blank" class="color-999">高级电商</a>
+	                                    		<a href="http://www.tmooc.cn/search/index.shtml#categoryId=317ba44839c943e69ad3e6a54dd042a2" target="_blank" class="color-999">网商运营</a>
+	                                    	<i class="verflag"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <ul class="course-video clearfix bgcolor-fff">
+	                            			<li class="pull-left">
+													<a href="http://www.tmooc.cn/course/2018/06/12/6B1CF8A16F444DC1AC402F8ED5AD2031.shtml" target="_blank">
+		                                            <div class="l-p md-ad-imgbox">
+		                                                <img src="./danei_files/37FACE09F5404EDA95E9D0F4D76668D0.png" width="120" height="68" alt="">
+		                                            </div>
+		                                            <div class="cv-r">
+		                                                <h3 class="tit font-weight">一周上手小程序</h3>
+		                                                <p class="info clearfix color-999">本系列课程抓住了小程序开发的要点，带你快速进行知识梳理和案例实操</p>
+		                                            </div>
+		                                        </a>
+		                                    </li>
+	                            			<li class="pull-left">
+													<a href="http://www.tmooc.cn/course/2018/05/18/4E2D5A35D5E9488FB220F3CFE45E134B.shtml" target="_blank">
+		                                            <div class="l-p md-ad-imgbox">
+		                                                <img src="./danei_files/CC18466FADF74D3A87FDA5A17AAF4D83.png" width="120" height="68" alt="">
+		                                            </div>
+		                                            <div class="cv-r">
+		                                                <h3 class="tit font-weight">SEM搜索引擎营销</h3>
+		                                                <p class="info clearfix color-999">SEM搜索引擎营销</p>
+		                                            </div>
+		                                        </a>
+		                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="sub">
+                            <a href="http://www.tmooc.cn/#" class="color-999 ">
+                                <span>数字艺术</span>
+                                <i class="verflag"></i>
+                                <i class="cusfont cusfont-more"></i>
+                            </a>
+                            <div class="item">
+                                <div class="course-list">
+                                    <div class="course-item clearfix">
+                                    	<p>
+                                    		<a href="http://www.tmooc.cn/search/index.shtml#categoryId=C285947B461546A79AAB3345B837AAF7" target="_blank">数字艺术</a>
+                                    	</p>
+                                    	<div class="c-l">
+	                                    		<a href="http://www.tmooc.cn/search/index.shtml#categoryId=AA56EA00E9FE44008117AC0333A19C0E" target="_blank" class="color-999">UED设计</a>
+	                                    		<a href="http://www.tmooc.cn/search/index.shtml#categoryId=CF92FB9770D146C98A13E235D33806A7" target="_blank" class="color-999">UID设计</a>
+	                                    		<a href="http://www.tmooc.cn/search/index.shtml#categoryId=242f2f918f204b049f9861006711806d" target="_blank" class="color-999">BVD商业视觉设计</a>
+	                                    		<a href="http://www.tmooc.cn/search/index.shtml#categoryId=a0158c98e278429c99034df005d330b6" target="_blank" class="color-999">CAD</a>
+	                                    		<a href="http://www.tmooc.cn/search/index.shtml#categoryId=b8ccb7c851514804b2268bc1bc8764b1" target="_blank" class="color-999">视频剪辑</a>
+	                                    		<a href="http://www.tmooc.cn/search/index.shtml#categoryId=7f4618b00a344186a57d4a6133eaacdc" target="_blank" class="color-999">平面设计</a>
+	                                    		<a href="http://www.tmooc.cn/search/index.shtml#categoryId=123b4c724cf049569298a140da6f85e1" target="_blank" class="color-999">商业插画</a>
+	                                    	<i class="verflag"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <ul class="course-video clearfix bgcolor-fff">
+	                            			<li class="pull-left">
+													<a href="http://www.tmooc.cn/course/300583.shtml" target="_blank">
+		                                            <div class="l-p md-ad-imgbox">
+		                                                <img src="./danei_files/A39738762E2741B2892D358B5C6500C1.jpg" width="120" height="68" alt="">
+		                                            </div>
+		                                            <div class="cv-r">
+		                                                <h3 class="tit font-weight">达内在线商业插画培优课</h3>
+		                                                <p class="info clearfix color-999">专为UI设计师打造，提升原创设计实力，突破设计瓶颈，创造设计灵感，实现设计实力的飞跃！</p>
+		                                            </div>
+		                                        </a>
+		                                    </li>
+	                            			<li class="pull-left">
+													<a href="http://www.tmooc.cn/course/300603.shtml" target="_blank">
+		                                            <div class="l-p md-ad-imgbox">
+		                                                <img src="./danei_files/a91007b4195a4a4dba2cc6136bb992db.jpg" width="120" height="68" alt="">
+		                                            </div>
+		                                            <div class="cv-r">
+		                                                <h3 class="tit font-weight">平面设计极速入职课</h3>
+		                                                <p class="info clearfix color-999">0基础设计小白快速具备入职能力</p>
+		                                            </div>
+		                                        </a>
+		                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="sub">
+                            <a href="http://www.tmooc.cn/#" class="color-999 ">
+                                <span>其他职业课程</span>
+                                <i class="verflag"></i>
+                                <i class="cusfont cusfont-more"></i>
+                            </a>
+                            <div class="item">
+                                <div class="course-list">
+                                    <div class="course-item clearfix">
+                                    	<p>
+                                    		<a href="http://www.tmooc.cn/search/index.shtml#categoryId=2A4E9E99BAAA4011B1B03B794F6CB7B1" target="_blank">其他职业课程</a>
+                                    	</p>
+                                    	<div class="c-l">
+	                                    		<a href="http://www.tmooc.cn/search/index.shtml#categoryId=3956D627F29A4FD79B9A31FD0DF416CC" target="_blank" class="color-999">网络运维与安全</a>
+	                                    		<a href="http://www.tmooc.cn/search/index.shtml#categoryId=73801454B6914254B661A30D94C8E500" target="_blank" class="color-999">ACC</a>
+	                                    		<a href="http://www.tmooc.cn/search/index.shtml#categoryId=73c4ea56d1bb442e82e8e5bb271187d6" target="_blank" class="color-999">HR</a>
+	                                    		<a href="http://www.tmooc.cn/search/index.shtml#categoryId=6BAC815927ED47FBBCC34A8BD79CBDA9" target="_blank" class="color-999">就业指导</a>
+	                                    		<a href="http://www.tmooc.cn/search/index.shtml#categoryId=8144a7b771334ddca3d3c4b9eb74a02c" target="_blank" class="color-999">商业办公软件</a>
+	                                    	<i class="verflag"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <ul class="course-video clearfix bgcolor-fff">
+	                            			<li class="pull-left">
+													<a href="http://www.tmooc.cn/course/300557.shtml#" target="_blank">
+		                                            <div class="l-p md-ad-imgbox">
+		                                                <img src="./danei_files/4d09a706a83741f8b9f303196af69862.jpg" width="120" height="68" alt="">
+		                                            </div>
+		                                            <div class="cv-r">
+		                                                <h3 class="tit font-weight">华为高级认证HCIE</h3>
+		                                                <p class="info clearfix color-999">提升7大实力，做ICT领域专家</p>
+		                                            </div>
+		                                        </a>
+		                                    </li>
+	                            			<li class="pull-left">
+													<a href="http://www.daneiacc.cn/course/detail?id=265" target="_blank">
+		                                            <div class="l-p md-ad-imgbox">
+		                                                <img src="./danei_files/01535b1f83684f27a2725ffbbdfe06d6.jpg" width="120" height="68" alt="">
+		                                            </div>
+		                                            <div class="cv-r">
+		                                                <h3 class="tit font-weight">总账会计180天实战训练营</h3>
+		                                                <p class="info clearfix color-999">上市公司，真账实训，打造会计实战派。</p>
+		                                            </div>
+		                                        </a>
+		                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!--右侧banner区-->
+                <div class="banner-con pull-left">
+                    <!--轮播区-->
+                    <div class="carousel-area" id="js_control_carousel">
+                        <div class="hd">
+                            <ul class="clearfix">
+                            			<li class=""></li>
+                            			<li class="on"></li>
+                            			<li class=""></li>
+                            			<li class=""></li>
+                            			<li class=""></li>
+                            </ul>
+                        </div>
+                        <div class="bd">
+                            <div class="tempWrap" style="overflow:hidden; position:relative; width:975px"><ul style="width: 4875px; left: -975px; position: relative; overflow: hidden; padding: 0px; margin: 0px;">
+                                	<li style="float: left; width: 975px;">
+                                			<a href="https://mp.weixin.qq.com/s/meS2IHVX-a5QXgfHeHURYg" target="_blank">
+                                		<img src="./danei_files/40be952908964f639a70f00c80b04fc9.jpg" alt=""></a>
+                                	</li>
+                                	<li style="float: left; width: 975px;">
+                                			<a href="http://mp.weixin.qq.com/s?__biz=MzU3Mzc5NzEwMA==&amp;mid=100001393&amp;idx=1&amp;sn=36482f1f532dcea2d08407fe7c80f566&amp;chksm=7d3d61f24a4ae8e475e8f3b3c0879b8549fc2e19cdfe02307600ca4ed140eb293dff176c2630#rd" target="_blank">
+                                		<img src="./danei_files/43dcf26d645e4714b8ca7ed257e7dc41.jpg" alt=""></a>
+                                	</li>
+                                	<li style="float: left; width: 975px;">
+                                			<a href="http://www.tmooc.cn/university/index.html" target="_blank">
+                                		<img src="./danei_files/b79c8a33815b4de7ac067e795ebca382.jpg" alt=""></a>
+                                	</li>
+                                	<li style="float: left; width: 975px;">
+                                			<a href="https://www3.53kf.com/webCompany.php?kf_sign=zUwNDMTU2NY5MTEwNjM5MDYzNzIyMDAyNzIxMjA4ODM%253D&amp;arg=10120883&amp;style=17" target="_blank">
+                                		<img src="./danei_files/8fa09c7f86684619b9a01d025a498867.jpg" alt=""></a>
+                                	</li>
+                                	<li style="float: left; width: 975px;">
+                                			<a href="https://www3.53kf.com/webCompany.php?kf_sign=zUwNDMTU2NY5MTEwNjM5MDYzNzIyMDAyNzIxMjA4ODM%253D&amp;arg=10120883&amp;style=17" target="_blank">
+                                		<img src="./danei_files/f2ad3cd50c47404b96dd7e7cc758f455.png" alt=""></a>
+                                	</li>
+                            </ul></div>
+                        </div>
+                        <a href="javascript:void(0)" class="direct-btn prev"><i class="cusfont cusfont-left"></i></a>
+                        <a href="javascript:void(0)" class="direct-btn next"><i class="cusfont cusfont-more"></i></a>
+                    </div>
+                    <!--广告区-->
+                    <div class="ad-area bgcolor-fff">
+                        <ul class="ad-list clearfix">
+                        		<li>
+                        				<a href="http://www.tmooc.cn/university/index.html" class="clearfix" target="_blank">
+	                                    <div class="ad-r pull-right">
+	                                        <h3 class="font-14 color-333 text-overflow">高校专区</h3>
+	                                        <p class="color-888 text-overflow">VIP课程资源免费开放</p>
+	                                    </div>
+	                                    <img src="./danei_files/fff1186ad2ae4b0790825eae784cb041.jpg" width="32" height="32" alt="" class="pull-left">
+                                	</a>
+	                            </li>
+                        		<li>
+                        				<a href="http://www.tmooc.cn/activities/square/" class="clearfix" target="_blank">
+	                                    <div class="ad-r pull-right">
+	                                        <h3 class="font-14 color-333 text-overflow">直播广场</h3>
+	                                        <p class="color-888 text-overflow">名师限时免费直播</p>
+	                                    </div>
+	                                    <img src="./danei_files/281d749e5acc4c7686ac76bd11589134.png" width="32" height="32" alt="" class="pull-left">
+                                	</a>
+	                            </li>
+                        		<li>
+                        				<a href="http://www.tmooc.cn/activities/" class="clearfix" target="_blank">
+	                                    <div class="ad-r pull-right">
+	                                        <h3 class="font-14 color-333 text-overflow">最新活动</h3>
+	                                        <p class="color-888 text-overflow">多重福利拿不停</p>
+	                                    </div>
+	                                    <img src="./danei_files/09a6c091745743779a469b1de82987be.png" width="32" height="32" alt="" class="pull-left">
+                                	</a>
+	                            </li>
+                        		<li>
+                        				<a href="http://www.tmooc.cn/help" class="clearfix" target="_blank">
+	                                    <div class="ad-r pull-right">
+	                                        <h3 class="font-14 color-333 text-overflow">帮助页面</h3>
+	                                        <p class="color-888 text-overflow">带你玩转TMOOC</p>
+	                                    </div>
+	                                    <img src="./danei_files/2E9FE243D74D43FFBF025E2F417C3E2F.png" width="32" height="32" alt="" class="pull-left">
+                                	</a>
+	                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="md2018040401lty">
+        <div class="container">
+            <div class="md-com-list">
+                <div class="md-hd">
+                    <div class="pull-left">
+                        <i class="cusfont cusfont-video link-color"></i>
+                        <span class="hd-tit color-333 font-20 verflag">直播课</span>
+                    </div>
+                    <a href="http://www.tmooc.cn/live" class="font-14 pull-right color-999" target="_blank">查看更多&gt;&gt;</a>
+                </div>
+                <ul class="md-bd clearfix md-2018040201-lty">
+                    	<li class="pic-box pull-left live">
+							<div class="hd-pic">
+									<a href="http://www.tmooc.cn/course/303009.shtml" target="_blank">
+									<img src="./danei_files/7a43e287d5044854aef56e04bef785da.jpg" alt="">
+									<i class="state"></i>
+								</a>
+							</div>
+							<div class="bd-word bgcolor-fff">
+								<h4 class="bd-tit color-333 ">
+										<a href="http://www.tmooc.cn/course/303009.shtml" class="color-333" target="_blank">
+									【限时免费】8月0元试听名师大讲堂第三辑</a>
+								</h4>
+								<div class="clearfix">
+										<span class="no-money pull-left">免费</span>
+										<span class="sign-num pull-right color-888">1,929人报名</span>
+								</div>
+							</div>
+						</li>
+                    	<li class="pic-box pull-left live">
+							<div class="hd-pic">
+									<a href="http://www.tmooc.cn/course/303006.shtml" target="_blank">
+									<img src="./danei_files/83acc43bd0f648b98c041c4713aa8980.jpg" alt="">
+									<i class="state"></i>
+								</a>
+							</div>
+							<div class="bd-word bgcolor-fff">
+								<h4 class="bd-tit color-333 ">
+										<a href="http://www.tmooc.cn/course/303006.shtml" class="color-333" target="_blank">
+									【限时免费】平面设计极速入职课-产品精修-化妆品（8月18日BVD启航班）</a>
+								</h4>
+								<div class="clearfix">
+										<span class="no-money pull-left">免费</span>
+										<span class="sign-num pull-right color-888">2,000人报名</span>
+								</div>
+							</div>
+						</li>
+                    	<li class="pic-box pull-left live">
+							<div class="hd-pic">
+									<a href="http://www.tmooc.cn/course/302927.shtml" target="_blank">
+									<img src="./danei_files/e0cc397459344991b70ebafc2c3b6bac.jpg" alt="">
+									<i class="state"></i>
+								</a>
+							</div>
+							<div class="bd-word bgcolor-fff">
+								<h4 class="bd-tit color-333 ">
+										<a href="http://www.tmooc.cn/course/302927.shtml" class="color-333" target="_blank">
+									8月直播课-Python线上体验课</a>
+								</h4>
+								<div class="clearfix">
+										<span class="no-money pull-left">免费</span>
+										<span class="sign-num pull-right color-888">2,051人报名</span>
+								</div>
+							</div>
+						</li>
+                    	<li class="pic-box pull-left live">
+							<div class="hd-pic">
+									<a href="http://www.tmooc.cn/course/302929.shtml" target="_blank">
+									<img src="./danei_files/28dd84984bcb4ac193c52041eb734e73.jpg" alt="">
+									<i class="state"></i>
+								</a>
+							</div>
+							<div class="bd-word bgcolor-fff">
+								<h4 class="bd-tit color-333 ">
+										<a href="http://www.tmooc.cn/course/302929.shtml" class="color-333" target="_blank">
+									8月直播课-网商运营线上体验课</a>
+								</h4>
+								<div class="clearfix">
+										<span class="no-money pull-left">免费</span>
+										<span class="sign-num pull-right color-888">1,830人报名</span>
+								</div>
+							</div>
+						</li>
+                    	<li class="pic-box pull-left live">
+							<div class="hd-pic">
+									<a href="http://www.tmooc.cn/course/302930.shtml" target="_blank">
+									<img src="./danei_files/74991f43e80d4affa88c466b9b498001.jpg" alt="">
+									<i class="state"></i>
+								</a>
+							</div>
+							<div class="bd-word bgcolor-fff">
+								<h4 class="bd-tit color-333 ">
+										<a href="http://www.tmooc.cn/course/302930.shtml" class="color-333" target="_blank">
+									8月直播课-云计算线上体验课</a>
+								</h4>
+								<div class="clearfix">
+										<span class="no-money pull-left">免费</span>
+										<span class="sign-num pull-right color-888">1,683人报名</span>
+								</div>
+							</div>
+						</li>
+                </ul>
+            </div>
+            <div class="md-com-list">
+                <div class="md-hd">
+                    <div class="pull-left">
+                        <i class="cusfont cusfont-diamond link-color "></i>
+                        <span class="hd-tit color-333 font-20 verflag">会员课</span>
+                    </div>
+                    <a href="http://www.tmooc.cn/vip" class="font-14 pull-right color-999" target="_blank">查看更多&gt;&gt;</a>
+                </div>
+                <ul class="md-bd clearfix md-2018040201-lty">
+						<li class="pic-box pull-left vip">
+							<div class="hd-pic">
+									<a href="http://www.tmooc.cn/course/2018/06/12/6B1CF8A16F444DC1AC402F8ED5AD2031.shtml" target="_blank">
+									<img src="./danei_files/B6C9118E3E604AC6BDA8A8F3DB2A981B.png" alt="">
+									<i class="state"></i>
+								</a>
+							</div>
+							<div class="bd-word bgcolor-fff">
+								<h4 class="bd-tit color-333 ">
+										<a href="http://www.tmooc.cn/course/2018/06/12/6B1CF8A16F444DC1AC402F8ED5AD2031.shtml" class="color-333" target="_blank">
+									一周上手小程序</a>
+								</h4>
+								<div class="clearfix">
+										<span class="price pull-left">￥1.00（会员免费）</span>
+										<span class="sign-num pull-right color-888">7,443人报名</span>
+								</div>
+							</div>
+						</li>
+						<li class="pic-box pull-left vip">
+							<div class="hd-pic">
+									<a href="http://www.tmooc.cn/course/100035.shtml" target="_blank">
+									<img src="./danei_files/8D4204DFC45C40BCBF68150E442E1D18.png" alt="">
+									<i class="state"></i>
+								</a>
+							</div>
+							<div class="bd-word bgcolor-fff">
+								<h4 class="bd-tit color-333 ">
+										<a href="http://www.tmooc.cn/course/100035.shtml" class="color-333" target="_blank">
+									商业插画零基础手绘教程</a>
+								</h4>
+								<div class="clearfix">
+										<span class="price pull-left">￥599.00（会员免费）</span>
+										<span class="sign-num pull-right color-888">4,183人报名</span>
+								</div>
+							</div>
+						</li>
+						<li class="pic-box pull-left vip">
+							<div class="hd-pic">
+									<a href="http://www.tmooc.cn/course/2018/05/23/B1436B4A46E741E99EC6D637B60D72C4.shtml" target="_blank">
+									<img src="./danei_files/94D557C1DBB44FDA909B3B2BDC433A28.png" alt="">
+									<i class="state"></i>
+								</a>
+							</div>
+							<div class="bd-word bgcolor-fff">
+								<h4 class="bd-tit color-333 ">
+										<a href="http://www.tmooc.cn/course/2018/05/23/B1436B4A46E741E99EC6D637B60D72C4.shtml" class="color-333" target="_blank">
+									Linux系统管理</a>
+								</h4>
+								<div class="clearfix">
+										<span class="price pull-left">￥199.00（会员免费）</span>
+										<span class="sign-num pull-right color-888">1,997人报名</span>
+								</div>
+							</div>
+						</li>
+						<li class="pic-box pull-left vip">
+							<div class="hd-pic">
+									<a href="http://www.tmooc.cn/course/2018/05/18/4E2D5A35D5E9488FB220F3CFE45E134B.shtml" target="_blank">
+									<img src="./danei_files/34F62A1A69D14F4287E0C499E60C6213.png" alt="">
+									<i class="state"></i>
+								</a>
+							</div>
+							<div class="bd-word bgcolor-fff">
+								<h4 class="bd-tit color-333 ">
+										<a href="http://www.tmooc.cn/course/2018/05/18/4E2D5A35D5E9488FB220F3CFE45E134B.shtml" class="color-333" target="_blank">
+									SEM搜索引擎营销</a>
+								</h4>
+								<div class="clearfix">
+										<span class="price pull-left">￥599.00（会员免费）</span>
+										<span class="sign-num pull-right color-888">2,494人报名</span>
+								</div>
+							</div>
+						</li>
+						<li class="pic-box pull-left vip">
+							<div class="hd-pic">
+									<a href="http://www.tmooc.cn/course/2018/06/15/1E17B57442E842878827729CAF08E9FF.shtml" target="_blank">
+									<img src="./danei_files/25D64D24BF544A2FB2FFD0FA328B70F0.png" alt="">
+									<i class="state"></i>
+								</a>
+							</div>
+							<div class="bd-word bgcolor-fff">
+								<h4 class="bd-tit color-333 ">
+										<a href="http://www.tmooc.cn/course/2018/06/15/1E17B57442E842878827729CAF08E9FF.shtml" class="color-333" target="_blank">
+									PR基础特效集合</a>
+								</h4>
+								<div class="clearfix">
+										<span class="price pull-left">￥1.00（会员免费）</span>
+										<span class="sign-num pull-right color-888">4,242人报名</span>
+								</div>
+							</div>
+						</li>
+                </ul>
+            </div>
+            <div class="md-com-list">
+                <div class="md-hd">
+                    <div class="pull-left ">
+                        <i class="cusfont cusfont-free link-color "></i>
+                        <span class="hd-tit color-333 verflag font-20">免费课</span>
+                    </div>
+                    <a href="http://www.tmooc.cn/free" class="font-14 pull-right color-999" target="_blank">查看更多&gt;&gt;</a>
+                </div>
+                <ul class="md-bd clearfix md-2018040201-lty">
+						<li class="pic-box pull-left free">
+							<div class="hd-pic">
+									<a href="http://www.tmooc.cn/course/301981.shtml" target="_blank">
+									<img src="./danei_files/6f1825093e0f48f0a26e98b307b948e6.jpg" alt="">
+									<i class="state"></i>
+								</a>
+							</div>
+							<div class="bd-word bgcolor-fff">
+								<h4 class="bd-tit color-333 ">
+										<a href="http://www.tmooc.cn/course/301981.shtml" class="color-333" target="_blank">
+									C++体验课</a>
+								</h4>
+								<div class="clearfix">
+										<span class="no-money pull-left">免费</span>
+										<span class="sign-num pull-right color-888">2,932人报名</span>
+								</div>
+							</div>
+						</li>
+						<li class="pic-box pull-left free">
+							<div class="hd-pic">
+									<a href="http://www.tmooc.cn/course/301982.shtml" target="_blank">
+									<img src="./danei_files/79f8d9bcb6394c1580bc299a19fc78b4.jpg" alt="">
+									<i class="state"></i>
+								</a>
+							</div>
+							<div class="bd-word bgcolor-fff">
+								<h4 class="bd-tit color-333 ">
+										<a href="http://www.tmooc.cn/course/301982.shtml" class="color-333" target="_blank">
+									嵌入式体验课</a>
+								</h4>
+								<div class="clearfix">
+										<span class="no-money pull-left">免费</span>
+										<span class="sign-num pull-right color-888">2,695人报名</span>
+								</div>
+							</div>
+						</li>
+						<li class="pic-box pull-left free">
+							<div class="hd-pic">
+									<a href="http://www.tmooc.cn/course/301277.shtml" target="_blank">
+									<img src="./danei_files/280c6025caa14649ba86b3561db92066.jpg" alt="">
+									<i class="state"></i>
+								</a>
+							</div>
+							<div class="bd-word bgcolor-fff">
+								<h4 class="bd-tit color-333 ">
+										<a href="http://www.tmooc.cn/course/301277.shtml" class="color-333" target="_blank">
+									视频剪辑-Premiere钢笔抠像应用之抖音跑酷特效</a>
+								</h4>
+								<div class="clearfix">
+										<span class="no-money pull-left">免费</span>
+										<span class="sign-num pull-right color-888">4,539人报名</span>
+								</div>
+							</div>
+						</li>
+						<li class="pic-box pull-left free">
+							<div class="hd-pic">
+									<a href="http://www.tmooc.cn/course/300528.shtml" target="_blank">
+									<img src="./danei_files/06207cb9c5b84e1f910e8b61fd50b080.png" alt="">
+									<i class="state"></i>
+								</a>
+							</div>
+							<div class="bd-word bgcolor-fff">
+								<h4 class="bd-tit color-333 ">
+										<a href="http://www.tmooc.cn/course/300528.shtml" class="color-333" target="_blank">
+									Java高手加薪体验课</a>
+								</h4>
+								<div class="clearfix">
+										<span class="no-money pull-left">免费</span>
+										<span class="sign-num pull-right color-888">3,613人报名</span>
+								</div>
+							</div>
+						</li>
+						<li class="pic-box pull-left free">
+							<div class="hd-pic">
+									<a href="http://www.tmooc.cn/course/300527.shtml" target="_blank">
+									<img src="./danei_files/9be65fa42a484aa89068644d6aebf03c.png" alt="">
+									<i class="state"></i>
+								</a>
+							</div>
+							<div class="bd-word bgcolor-fff">
+								<h4 class="bd-tit color-333 ">
+										<a href="http://www.tmooc.cn/course/300527.shtml" class="color-333" target="_blank">
+									Java软件架构体验课</a>
+								</h4>
+								<div class="clearfix">
+										<span class="no-money pull-left">免费</span>
+										<span class="sign-num pull-right color-888">4,090人报名</span>
+								</div>
+							</div>
+						</li>
+                </ul>
+            </div>
+            <div class="md-com-list">
+                <div class="md-hd">
+                    <div class="pull-left ">
+                        <i class="cusfont cusfont-king link-color" style="font-size:31px;"></i>
+                        <span class="hd-tit color-333 verflag font-20">精品课</span>
+                    </div>
+                    <a href="http://www.tmooc.cn/advanced" class="font-14 pull-right color-999" target="_blank">查看更多&gt;&gt;</a>
+                </div>
+                <ul class="md-bd clearfix md-2018040201-lty">
+						<li class="pic-box pull-left ">
+							<div class="hd-pic">
+									<a href="http://www.tmooc.cn/course/302886.shtml" target="_blank">
+									<img src="./danei_files/4dad94ce2f7749889912d04d39b6c372.jpg" alt="">
+									<i class="state"></i>
+								</a>
+							</div>
+							<div class="bd-word bgcolor-fff">
+								<h4 class="bd-tit color-333 ">
+										<a href="http://www.tmooc.cn/course/302886.shtml" class="color-333" target="_blank">
+									达内在线商业插画2020期-08班</a>
+								</h4>
+								<div class="clearfix">
+										<span class="price pull-left">￥11800.00</span>
+										<span class="sign-num pull-right color-888">5,562人购买</span>
+								</div>
+							</div>
+						</li>
+						<li class="pic-box pull-left ">
+							<div class="hd-pic">
+									<a href="http://www.tmooc.cn/course/302889.shtml" target="_blank">
+									<img src="./danei_files/c62195daa41246948f3e30ff21f3a85f.jpg" alt="">
+									<i class="state"></i>
+								</a>
+							</div>
+							<div class="bd-word bgcolor-fff">
+								<h4 class="bd-tit color-333 ">
+										<a href="http://www.tmooc.cn/course/302889.shtml" class="color-333" target="_blank">
+									达内在线平面设计极速入职课2020期-08班</a>
+								</h4>
+								<div class="clearfix">
+										<span class="price pull-left">￥10800.00</span>
+										<span class="sign-num pull-right color-888">2,368人购买</span>
+								</div>
+							</div>
+						</li>
+						<li class="pic-box pull-left ">
+							<div class="hd-pic">
+									<a href="http://www.tmooc.cn/course/302887.shtml" target="_blank">
+									<img src="./danei_files/c1ef7ee1cf884bc9a9c022bf86fcdef0.jpg" alt="">
+									<i class="state"></i>
+								</a>
+							</div>
+							<div class="bd-word bgcolor-fff">
+								<h4 class="bd-tit color-333 ">
+										<a href="http://www.tmooc.cn/course/302887.shtml" class="color-333" target="_blank">
+									达内在线视频剪辑2020期-08班</a>
+								</h4>
+								<div class="clearfix">
+										<span class="price pull-left">￥9800.00</span>
+										<span class="sign-num pull-right color-888">2,576人购买</span>
+								</div>
+							</div>
+						</li>
+						<li class="pic-box pull-left live">
+							<div class="hd-pic">
+									<a href="http://www.tmooc.cn/course/302892.shtml" target="_blank">
+									<img src="./danei_files/da7e4565d76948f7b5e9244b1825406c.jpg" alt="">
+									<i class="state"></i>
+								</a>
+							</div>
+							<div class="bd-word bgcolor-fff">
+								<h4 class="bd-tit color-333 ">
+										<a href="http://www.tmooc.cn/course/302892.shtml" class="color-333" target="_blank">
+									达内在线CAD环境艺术设计2008期</a>
+								</h4>
+								<div class="clearfix">
+										<span class="price pull-left">￥25800.00</span>
+										<span class="sign-num pull-right color-888">2,367人购买</span>
+								</div>
+							</div>
+						</li>
+						<li class="pic-box pull-left live">
+							<div class="hd-pic">
+									<a href="http://www.tmooc.cn/course/302891.shtml" target="_blank">
+									<img src="./danei_files/71b8dd5c560845fbbe80710ba328f92f.jpg" alt="">
+									<i class="state"></i>
+								</a>
+							</div>
+							<div class="bd-word bgcolor-fff">
+								<h4 class="bd-tit color-333 ">
+										<a href="http://www.tmooc.cn/course/302891.shtml" class="color-333" target="_blank">
+									达内在线Python办公自动化课程2020期-08班</a>
+								</h4>
+								<div class="clearfix">
+										<span class="price pull-left">￥3000.00</span>
+										<span class="sign-num pull-right color-888">2,047人购买</span>
+								</div>
+							</div>
+						</li>
+                </ul>
+            </div>
+            <div class="ad">
+            				<a href="http://www.tmooc.cn/offline_courses/" target="_blank">
+            				<img src="./danei_files/0FEB40D436DE46FABB6F895795FC6CB3.png" width="1200" height="100" alt=""></a>
+            </div>
+            <div class="md-com-list">
+                <div class="md-hd">
+                    <div class="pull-left ">
+                        <i class="cusfont cusfont-like link-color "></i>
+                        <span class="hd-tit color-333 font-20 verflag">我们的优势</span>
+                    </div>
+                </div>
+                <div class="md-bd">
+                    <ul class="adver clearfix">
+                        <li class="clearfix">
+                            <div class="wd-ad pull-left">
+                                <span class="font-16">课程体系</span>
+                                <ul class="ad-list color-888">
+                                    <li>与国际厂商共同打造IT精品课程</li>
+                                    <li>26大课程体系</li>
+                                </ul>
+                            </div>
+                            <div class="ad-r-icon pull-right">
+                                <img src="./danei_files/img_index_lty01.png" width="41" height="41" alt="">
+                                <i class="verflag"></i>
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <div class="wd-ad pull-left">
+                                <span class="font-16">师资力量</span>
+                                <ul class="ad-list color-888">
+                                    <li>总监级别名师汇聚</li>
+                                    <li>实战经验倾囊相授</li>
+                                </ul>
+                            </div>
+                            <div class="ad-r-icon pull-right">
+                                <img src="./danei_files/img_index_lty02.png" width="41" height="41" alt="">
+                                <i class="verflag"></i>
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                        	<div class="wd-ad pull-left">
+                                <span class="font-16"><a href="http://www.tedu.cn/jobIndex/">学员风采</a></span>
+                                <ul class="ad-list color-888">
+                                    <li>优秀学长学姐分享学习历程</li>
+                                    <li>万千就业榜样带你成长起飞</li>
+                                </ul>
+                            </div>
+                            <div class="ad-r-icon pull-right">
+                                <img src="./danei_files/img_index_lty04.png" width="41" height="41" alt="">
+                                <i class="verflag"></i>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="adver clearfix">
+                        <li class="clearfix">
+                            <div class="wd-ad pull-left">
+                                <span class="font-16">教学模式</span>
+                                <ul class="ad-list color-888">
+                                    <li>特色教育教学模式</li>
+                                    <li>实现高效优质学习</li>
+                                </ul>
+                            </div>
+                            <div class="ad-r-icon pull-right">
+                                <img src="./danei_files/img_index_lty03.png" width="41" height="41" alt="">
+                                <i class="verflag"></i>
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <div class="wd-ad pull-left">
+                                <span class="font-16">集团背景</span>
+                                <ul class="ad-list color-888">
+                                    <li>依托达内集团17年强大的教育背景</li>
+                                    <li>深厚的教学资源积累及经验总结</li>
+                                </ul>
+                            </div>
+                            <div class="ad-r-icon pull-right">
+                                <img src="./danei_files/img_index_lty05.png" width="41" height="41" alt="">
+                                <i class="verflag"></i>
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <div class="num-box-lty">
+	<div class="text-center data-show">
+		<i class="cusfont cusfont-course"></i>
+	    <h3 class="num">830</h3>
+	    <p class="font-14 color-888">个课程</p>
+	</div>
+	<div class="text-center data-show">
+		<i class="cusfont cusfont-teacher"></i>
+		<h3 class="num">91</h3>
+		<p class="font-14 color-888">位讲师</p>
+	</div>
+	<div class="text-center data-show">
+		<i class="cusfont cusfont-users"></i>
+		<h3 class="num">1,060,054</h3>
+		<p class="font-14 color-888">个用户数量</p>
+	</div>
+</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="md2018040802lty">
+    </div>
+</div>
+<div class="page-footer">
+    
+<div class="container">
+    <div class="md2018040301lty clearfix">
+        <div class="bt-fr clearfix pull-right">
+            <div class="b-info text-right pull-left">
+                <p>达内在线WWW.TMOOC.CN 专注于IT职业技能培训 </p>
+                <p>涵盖20余门课程体系，致力于打造权威的IT职业教育学习平台</p>
+            </div>
+            <div class="ewm-b pull-left">
+                <img src="./danei_files/erweima.jpg" width="75" height="75" alt="">
+            </div>
+        </div>
+        <div class="bt-lf clearfix pull-left">
+            <ul class="links clearfix">
+                <li><a href="http://www.tmooc.cn/aboutus/index.shtml">关于我们</a></li>
+                <li>|</li>
+                <li><a href="http://www.tmooc.cn/join/index.shtml">招聘信息</a></li>
+                <li>|</li>
+                <li><a href="http://www.tmooc.cn/contactus/index.shtml">联系我们</a></li>
+                <li>|</li>
+                <li><a href="http://www.tmooc.cn/business/index.shtml">商务合作</a></li>
+                <!-- <li>|</li>
+                <li><script src="https://s13.cnzz.com/z_stat.php?id=1273669604&web_id=1273669604" language="JavaScript"></script></li> -->
+                <li>|</li>
+                <!-- <li><a href="http://tts.tmooc.cn/ttsPage/vipService.html" target="_blank">VIP服务</a></li>
+				<li>|</li> -->
+				<li><a href="http://www.tmooc.cn/app/index.shtml" target="_blank">APP</a></li>
+            </ul> 
+            <div class="copyright" style="color:#fff;">
+            		<!-- 达内金桥站内纠纷和解员：曹泽 电话：18610661299| -->
+            		<img src="./danei_files/jianguan.png">昌平区市场监督管理局龙泽园所投诉举报电话：010-81748909
+            		 <a target="_blank" href="http://www.tmooc.cn/yyzz.html" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;color:#666;color:#fff;">营业执照</a>
+			</div>
+             <div class="copyright">Copyright © 北京达内金桥科技有限公司版权所有 京ICP备12003709号-3
+                <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802029572" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;color:#666;">
+                    <img src="./danei_files/beianh2019082901.png" style="float:left;margin: 0 5px;">
+                    <span>京公网安备 11010802029572号</span></a>
+            </div>
+        </div>
+        <div class="bt-line"></div>
+    </div>
+</div>
+<!-- 登录弹窗 -->
+<div style="display: none;">
+    <div class="md-2018040402-ll cus-win-model js-md-180417-login-cj" id="login_boxxxw">
+        <div class="js-log-type" data-logtype="0">
+            <div class="tit">登录</div>
+            <div id="js_login_form" class="form-ele-box">
+                <div class="form-item clearfix">
+                    <div class="form-inp-area">
+                        <input id="js_account_pm" class="form-input" value="" type="text" cusrule="mail_phone" placeholder="邮箱或手机号" autocomplete="off">
+                        <span class="form-tips">邮箱或手机号格式错误</span>
+                    </div>
+                </div>
+                <div class="form-item clearfix">
+                    <div class="form-inp-area">
+                        <input id="js_password" class="form-input" value="" type="password" placeholder="密码" autocomplete="off">
+                        <span class="form-tips">包含数字、字母、下划线的6-18位</span>
+                    </div>
+                </div>
+                <div id="js_validate_img_area" class="form-item clearfix" style="display: none;">
+                    <div class="form-inp-area">
+                        <input id="js_imgcode" class="form-input pull-left" value="" type="text" placeholder="验证码" style="width: 80px; margin-right: 15px;" autocomplete="off">
+                        <img id="js_validate_img" class="pull-left code-img js-validate-img" src="http://www.tmooc.cn/" height="40px" width="80px" style="cursor:pointer; margin-right: 15px;">
+                        <div class="form-inlineblock pull-left code-btn js-validate-img">
+                            <span class="verflag" style="cursor:pointer;">看不清楚？换一张</span>
+                            <i class="verflag"></i>
+                        </div>
+                        <span class="form-tips">验证码格式错误</span>
+                    </div>
+                </div>
+                <div class="form-item clearfix">
+                    <button id="js_submit_login" class="form-btn form-btn-blue width-100" type="button">登录</button>
+                </div>
+                <div class="form-item clearfix" style="font-size: 12px;">
+                    <div class="form-checkbox pull-left" style="display: none;">
+                        <label><input type="checkbox" checked="checked"><span>下次自动登录</span></label>
+                    </div>
+                    <div class="pull-right color-aaa" style="padding-top: 2px;">
+                        <a href="http://uc.tmooc.cn/login/jumpToUserFindPassword" class="color-aaa">忘记密码</a>&nbsp;|&nbsp;<a href="http://uc.tmooc.cn/login/jumpToRegister" class="color-aaa">注册</a>
+                    </div>
+                </div>
+                <div class="other-loginbox">
+                    <p class="c-tit color-aaa text-center">第三方账号登录</p>
+                    <div class="c-btns">
+                        <div class="c-fbtn">
+                            <a class="c-btn js-log-type-cut"><i class="cusfont cusfont-wechat"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="js-log-type" data-logtype="3" style="display: none;">
+            <div id="js_wx_code_log" class="text-center"></div>
+            <div class="other-loginbox">
+                <div class="c-btns">
+                    <div class="c-fbtn js-log-type-cut">返回账号登录</div>
+                </div>
+            </div>
+        </div>
+        <span class="cus-win-modelclose js-closewin-btn"><i class="cusfont cusfont-close font-14"></i></span>
+    </div>
+</div>
+<!-- 登录弹窗 end -->
+<!-- 支付状态弹窗 start  -->
+<div style="display: none;">
+    <div class="md-2018040423-ll cus-win-model" id="md_2018040423_ll">
+        <div class="tit">支付完成</div>
+        <p style="text-align: center;"><img src="./danei_files/img2018042301_ll.png"></p>
+        <div style="text-align: center; padding-top: 10px;">
+            <p class="color-red" id="js_error_tips" style="margin: 5px 0;opacity: 0;"><i class="cusfont cusfont-warning "></i>未支付成功，请在支付页面继续完成支付！</p>
+            <a class="form-btn form-btn-default" style="line-height: 24px; margin: 0 10px;" href="http://www.tmooc.cn/help/index.shtml" target="_blank">支付遇到问题</a>
+            <button class="form-btn form-btn-blue" type="button" id="js_pay_btn">已支付完成</button>
+        </div>
+        <span class="cus-win-modelclose js-closewin-btn"><i class="cusfont cusfont-close font-14"></i></span>
+    </div>
+</div>
+<!-- 支付状态弹窗 end -->
+<!-- TTS用户验证start -->
+<div style="display: none;">
+    <div class="md2018041301lty bgcolor-fff cus-win-model" id="js_yz_video">
+        <div class="tit-md">
+            <span>提示</span>
+            <span class="cus-win-modelclose js-closewin-btn"><i class="cusfont cusfont-close font-14"></i></span>
+        </div>
+        <div class="con-bd">
+            <p class="font-16 text-center">您需要进行账号验证<br>请<a href="http://uc.tmooc.cn/userCenter/toUserCenterPage" class="link-color">点击此处</a>跳转</p>
+        </div>
+    </div>
+</div>
+<!-- TTS用户验证end -->
+
+<!-- 在线报名start  -->
+<div style="display: none;">
+    <div class="md-2018040402-ll md2018041201lty cus-win-model" id="sign_uplty">
+        <form action="http://www.tmooc.cn/" id="sign-formlty">
+            <div class="tit">线上训练营课程领取申请表</div>
+            <div class="form-ele-box form-inline-box">
+                <div class="form-item clearfix">
+                    <label class="form-label">手机号<span class="color-red">*</span></label>
+                    <div class="form-inp-area">
+                        <input class="form-input" value="" type="text" id="telephone" placeholder="请输入手机号" cusrule="phone" autocomplete="off">
+                        <span class="form-tips"><i class="cusfont cusfont-warning"></i>请输入正确的手机号码</span>
+                    </div>
+                </div>
+                <!--
+                <div class="form-item clearfix">
+                    <label class="form-label">QQ<span class="color-red">*</span></label>
+                    <div class="form-inp-area ">
+                        <input class="form-input" value="" type="text" id="qq" placeholder="请输入QQ号" cusrule="qq" autocomplete="off">
+                        <span class="form-tips"><i class="cusfont cusfont-warning"></i>请输入5到11位的QQ号码</span>
+                    </div>
+                </div>
+                -->
+                <div class="form-item clearfix">
+                    <label class="form-label">姓名<span class="color-red">*</span></label>
+                    <div class="form-inp-area ">
+                        <input class="form-input" value="" type="text" id="name" placeholder="请输入姓名" cusrule="ch_and_en" autocomplete="off">
+                        <span class="form-tips"><i class="cusfont cusfont-warning"></i>请输入中文或英文</span>
+                    </div>
+                </div>
+                <!--
+                <div class="form-item clearfix select-item">
+                    <label class="form-label">地址<span class="color-red">*</span></label>
+                    <div class="form-inp-area " style="width:160px;margin-right:20px;">
+                        <div class="x-choose-down">
+                            <div class="x-ipt-group pull-left" id="js_province" >
+                                <div class="custom_sel_text">请选择</div>
+                                <ul class="custom_sel_list" style="display: none;">
+                                </ul>
+                                <span class="text-center">
+                                    <i class="cusfont cusfont-under"></i>
+                                    <i class="verflag"></i>
+                                </span>
+                                <input type="hidden" class="custom_sel_val" id="province" name="" value="" cusrule="required" >
+                            </div>
+                        </div>
+                        <span class="form-tips"><i class="cusfont cusfont-warning"></i>不能为空</span>
+                    </div>
+                    <div class="form-inp-area " style="width:160px;">
+                        <div class="x-choose-down">
+                            <div class="x-ipt-group pull-left" id="js_city" >
+                                <div class="custom_sel_text">请选择</div>
+                                <ul class="custom_sel_list" style="display: none;">
+                                </ul>
+                                <span class="text-center">
+                                    <i class="cusfont cusfont-under"></i>
+                                    <i class="verflag"></i>
+                                </span>
+                                <input type="hidden" class="custom_sel_val" id="city" name="" value="" cusrule="required">
+                            </div>
+                        </div>
+                        <span class="form-tips"><i class="cusfont cusfont-warning"></i>不能为空</span>
+                    </div>
+                </div>
+                -->
+                <div class="form-item clearfix select-item">
+                    <label class="form-label">学科<span class="color-red">*</span></label>
+                    <div class="form-inp-area " style="width:160px;margin-right:20px;">
+                        <div class="x-choose-down">
+                            <div class="x-ipt-group pull-left" id="js_subject">
+                                <div class="custom_sel_text">请选择</div>
+                                <ul class="custom_sel_list" style="display: none;">
+                                </ul>
+                                <span class="text-center">
+                                    <i class="cusfont cusfont-under"></i>
+                                    <i class="verflag"></i>
+                                </span>
+                                <input type="hidden" class="custom_sel_val" id="subject" name="" value="" cusrule="required">
+                            </div>
+                        </div>
+                        <span class="form-tips"><i class="cusfont cusfont-warning"></i>不能为空</span>
+                    </div>
+                    <div class="form-inp-area " style="width:160px;">
+                        <div class="x-choose-down">
+                            <div class="x-ipt-group pull-left" id="js_course">
+                                <div class="custom_sel_text">请选择</div>
+                                <ul class="custom_sel_list" style="display: none;">
+                                </ul>
+                                <span class="text-center">
+                                    <i class="cusfont cusfont-under"></i>
+                                    <i class="verflag"></i>
+                                </span>
+                                <input type="hidden" class="custom_sel_val" id="course" name="" value="" cusrule="required">
+                            </div>
+                        </div>
+                        <span class="form-tips"><i class="cusfont cusfont-warning"></i>不能为空</span>
+                    </div>
+                </div>
+                <div class="form-item clearfix">
+                    <label class="form-label">验证码<span class="color-red">*</span></label>
+                    <div class="form-inp-area">
+                        <input id="js_imgCode_lty" class="form-input pull-left" cusrule="code_en" autocomplete="off" cuslength="4" value="" type="text" placeholder="验证码" style="width: 110px; margin-right: 15px;">
+                        <img id="js_validate_img_lty" class="pull-left code-img js-validate-img-lty" height="40px" width="80px" style="cursor:pointer;margin-right: 15px;">
+                        <div class="form-inlineblock pull-left code-btn js-validate-img-lty" style="width:120px;">
+                            <span class="verflag" style="cursor: pointer;">看不清楚？换一张</span>
+                            <i class="verflag"></i>
+                        </div>
+                        <span class="form-tips"><i class="cusfont cusfont-warning"></i>请输入正确的验证码</span>
+                    </div>
+                </div>
+                <div class="form-item clearfix">
+                    <label class="form-label">动态码<span class="color-red">*</span></label>
+                    <div class="form-inp-area" style="width:230px;">
+                        <input id="js_phoneCode_lty" class="form-input pull-left" cusrule="required" autocomplete="off" value="" type="text" placeholder="动态码">
+                        <span class="form-tips"><i class="cusfont cusfont-warning"></i>请输入正确的动态码</span>
+                    </div>
+                    <button id="js_getPhoneCode" class="form-btn form-btn-blue pull-right" type="button">获取动态码</button>
+                </div>
+                <!--
+                <div class="form-item clearfix">
+                    <label class="form-label">备注</label>
+                    <div class="pull-left" style="width:340px;">
+                        <textarea name=""  cols="" rows="" class="form-input form-textarea" id="remark"></textarea>
+                        <p class="font-14 rest-num">还可以输入<span class="total-num" id="js_total_lty">255</span>个字符</p>
+                    </div>
+                </div>
+                -->
+                <div class="form-item clearfix ">
+                    <button class="form-btn form-btn-blue  sign-btn" id="js_sign_btn" type="button">提交</button>
+                </div>
+
+
+            </div>
+        </form>
+        <span class="cus-win-modelclose js-closewin-btn"><i class="cusfont cusfont-close font-14"></i></span>
+    </div>
+</div>
+<!-- 在线报名end  -->
+<!-- 右侧悬浮框 start -->
+<div class="md2018040901lty">
+    <div class="nav-r">
+        <ul class="guide-list">
+        	<li>
+	        	<a href="http://uc.tmooc.cn/message/toHave" target="_blank" style="position:relative;display: block;padding-top: 12px;color: #aaa;">
+		        	<i class="cusfont cusfont-xiaoxi" style="font-size: 30px;"></i>
+		        	<span class="js-mes-length3"></span>
+	        	</a>
+        	</li>
+            <li><a href="https://tb.53kf.com/code/client/10120883/17" target="_blank">
+                <p class="p p1"><i class="cusfont cusfont-xianshangkefu---"></i></p>
+                <p class="p p2 p-text font-12px">线上客服</p>
+            </a></li>
+            <li class="sign-up-lty"><a id="js_sign_up" href="http://www.tmooc.cn/#">
+                <p class="p p1"><i class="cusfont cusfont-lingqukecheng-2"></i></p>
+                <p class="p p2 p-text font-12px">课程领取</p>
+            </a></li>
+             <li class="sign-up-lty">
+                <a id="open17" href="http://www.tmooc.cn/zhuanti.html">
+                    <p class="p p1" style="background:url(http://cdn.tmooc.cn/tmooc-web/css/img/tmooc17img11_03.jpg) no-repeat center;"></p>
+                    <p class="p p2 p-text font-12px">17 <br> 周年</p>
+                </a>
+            </li>
+            <li class="ph">
+                <a href="javascript:void(0)">
+                    <p class="p p1"><i class="cusfont cusfont-rexiandianhua-"></i></p>
+                    <p class="p p2 p-text font-12px">热线电话</p>
+                    <div class="ph-show">
+                       <div>
+                           <p class="ph1">咨询热线：13641135501</p>
+                           <p class="ph1" style="background:#fff;color: #666;border-color: #ddd;">投诉热线：400-111-8989</p>
+                           <p class="ph2"><i class="cusfont cusfont-shijian-" style="margin-right: 4px;font-size: 14px"></i>服务时间：<span class="color-999">9:00-18:00</span></p>
+                       </div>
+                    </div>
+                </a>
+            </li>
+            <li id="js_comback"><a href="http://www.tmooc.cn/#"> <p class="p p1"><i class="cusfont cusfont-TOP-"></i></p></a></li>
+        </ul>
+    </div>
+</div>
+<!-- 右侧悬浮框 end -->
+
+<!-- <script src="http://res.wx.qq.com/connect/zh_CN/htmledition/js/wxLogin.js"></script> -->
+<script src="./danei_files/jsmd5.js"></script>
+<script type="text/javascript">
+    $(function () {
+        initLoginFn(); //初始化登录
+        getUserLoginStatus(); //获取用户登录状态信息
+
+        /*点击搜索按钮*/
+        $('#js_control_search').click(function () {
+            var k_ = $.trim($('#js_search_inp').val());
+
+            if (window.SEARCHPAGE_) {
+                if (k_) {
+                    $('.js-key-word').eq(0).text(k_);
+                    resetSearch(1);
+                    flag_ = true;
+                    getClasslset(getSearchobj({searchCore: k_}));
+                } else {
+                    layer.msg('请输入搜索内容');
+                    return;
+                }
+            } else {
+                location.href = 'http://www.tmooc.cn/search/index.shtml#searchCore=' + encodeURI(encodeURI(k_));//+'categoryId='+($(".js-lv-xxw span.curx").data('id') || "0");
+            }
+            $('#js_search_inp').val('');
+        });
+        $('#js_search_inp').keypress(function (e) {
+            if (e.keyCode === 13) {
+                $('#js_control_search').trigger('click');
+            }
+        });
+    });
+</script>
+<!-- 百度统计start  -->
+<script>
+    var _hmt = _hmt || [];
+    $(function () {
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?51179c297feac072ee8d3f66a55aa1bd";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    });
+</script>
+<!-- 百度统计end  -->
+<!-- 加载微信start 因部分中心不能访问微信，因此延时加载，防止阻塞 -->
+<script>
+    $(function () {
+        (function () {
+            var wx = document.createElement("script");
+            wx.src = "http://res.wx.qq.com/connect/zh_CN/htmledition/js/wxLogin.js";
+            var wx_s = document.getElementsByTagName("script")[0];
+            wx_s.parentNode.insertBefore(wx, wx_s);
+        })();
+    });
+</script>
+<!-- 加载微信end  -->
+</div>
+
+<!--中间-->
+<!--底部-->
+		<div class="js-modo md2007212">
+				<a href="https://mp.weixin.qq.com/s?__biz=MzU3Mzc5NzEwMA==&amp;mid=100001393&amp;idx=1&amp;sn=36482f1f532dcea2d08407fe7c80f566&amp;chksm=7d3d61f24a4ae8e475e8f3b3c0879b8549fc2e19cdfe02307600ca4ed140eb293dff176c2630#rd">
+					<img class="img" src="./danei_files/e3b3c4dca34d4ffcac4f634b621ae37a.jpg">
+				</a>
+	    	<img class="cls-btn1 js-close200721" src="./danei_files/img20072108_03.png">
+		</div>
+<!--右侧-->
+			<a class="right-m-20200721" href="https://mp.weixin.qq.com/s/meS2IHVX-a5QXgfHeHURYg">
+				<img class="" src="./danei_files/a2118a8322fa47309e8fc6a9ecca7c43.png">
+			</a>
+
+
+<script src="./danei_files/addressDPage.js"></script>
+<script src="./danei_files/jquery.colorbox-min.js"></script>
+<script src="./danei_files/jquery.SuperSlide.2.1.2.js"></script>
+<script src="./danei_files/app.js"></script>
+<script src="./danei_files/layer.js"></script>
+<script src="./danei_files/jquery-cookie.js"></script>
+<script>
+    /*下拉菜单*/
+    $(function () {
+        /*顶部banner区左侧导航*/
+        $('#js_control_menu').slide({defaultPlay: false, type: 'menu', titCell: '.sub', targetCell: '.item', effect: 'fade', delayTime: 100, triggerTime: 0, returnDefault: true})
+        /*顶部轮播区*/
+        $("#js_control_carousel").slide({mainCell: ".bd ul", autoPlay: true, effect: 'left'})
+    })
+</script>
+
+
+<div id="cboxOverlay" style="display: none;"></div><div id="colorbox" class="" role="dialog" tabindex="-1" style="display: none;"><div id="cboxWrapper"><div><div id="cboxTopLeft" style="float: left;"></div><div id="cboxTopCenter" style="float: left;"></div><div id="cboxTopRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxMiddleLeft" style="float: left;"></div><div id="cboxContent" style="float: left;"><div id="cboxTitle" style="float: left;"></div><div id="cboxCurrent" style="float: left;"></div><button type="button" id="cboxPrevious"></button><button type="button" id="cboxNext"></button><button type="button" id="cboxSlideshow"></button><div id="cboxLoadingOverlay" style="float: left;"></div><div id="cboxLoadingGraphic" style="float: left;"></div></div><div id="cboxMiddleRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxBottomLeft" style="float: left;"></div><div id="cboxBottomCenter" style="float: left;"></div><div id="cboxBottomRight" style="float: left;"></div></div></div><div style="position: absolute; width: 9999px; visibility: hidden; display: none; max-width: none;"></div></div><div id="id0606" style="display:none"></div></body></html>
